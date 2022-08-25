@@ -38,7 +38,7 @@ export class UserController {
     return userList;
   }
 
-  @Get('/export//pdf')
+  @Get('/export/pdf')
   getUserListPDF() {
     this.appService.getUserListPDF();
   }
